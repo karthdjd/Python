@@ -1,0 +1,8 @@
+list=['fast','straight','right','left']
+def loop1(x):
+    print(x*3)
+def loop2(iter,list):
+    iter(list)          #whole list mul 3 tymes
+    for item in list:  #individual element multiply 3 tyms
+        iter(item)
+loop2(loop1,list)
