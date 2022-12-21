@@ -1,0 +1,12 @@
+list=['right',1,'god',2,'hello']
+print(list)
+#length
+print(len(list))
+#slice
+print(list[2:4])
+#insertion
+list.insert(3,'new')
+print(list)
+#changing or replacing
+list[4]='newone'
+print(list)
