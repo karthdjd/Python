@@ -1,0 +1,3 @@
+list=['right','hello','god','hi','hello']
+newlist=[x for x in list if 'i' in x]
+print(newlist)
