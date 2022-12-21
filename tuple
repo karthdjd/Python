@@ -1,0 +1,7 @@
+tuple=('right',1,'god',2,'hello')
+print(tuple)
+#length
+print(len(tuple))
+#slice
+print(tuple[2:4])
+#tuple is immutable
